@@ -9802,7 +9802,7 @@ a.button {
     color: #000; }
 
 .tabs-top > .tabs {
-  top: 60px;
+  top: 59px;
   height: 68px; }
 
 .tabs {
@@ -9813,18 +9813,20 @@ a.button {
     margin: 0 !important;
     padding: 10px;
     border-bottom: 2px solid #ecedee !important;
-    transition: border-color, color, opacity .5s; }
+    transition: all .5s; }
     .tabs .tab-item.tab-item-active, .tabs .tab-item.activated {
       color: #1dcab2 !important;
       border-color: #1dcab2 !important;
-      opacity: 1 !important; }
+      opacity: 1 !important;
+      padding: 10px 10px 6px 10px;
+      margin-top: 1px !important; }
     .tabs .tab-item.activated {
       opacity: .5 !important; }
 
 .scroll-content {
   top: 60px; }
   .scroll-content.has-tabs-top {
-    top: 128px; }
+    top: 127px; }
 
 .section-title {
   background: #ecedee;
