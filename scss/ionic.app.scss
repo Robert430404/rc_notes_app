@@ -40,11 +40,15 @@ $radius: 4px;
 	&.bar-stable{
 		background: $primary-color;
 		height: 60px;
+		padding: 14px 15px;
 		.title {
 			color: $black;
 			line-height: 60px;
 			text-align: center;
 			font-weight: 300;
+		}
+		.button {
+			color: $black;
 		}
 	}
 }
@@ -52,11 +56,43 @@ $radius: 4px;
 .tabs-top {
 	> .tabs {
 		top: 60px;
+		height: 68px;
+	}
+}
+
+.tabs {
+	height: 68px;
+	.tab-item {
+		background: $off-white !important;
+		opacity: .65 !important;
+		margin: 0 !important;
+		padding: 10px;
+		border-bottom: 2px solid $off-white !important;
+		transition: border-color, color, opacity .5s;
+		&.tab-item-active,
+		&.activated {
+			color: $primary-color !important;
+			border-color: $primary-color !important;
+			opacity: 1 !important;
+		}
+		&.activated {
+			opacity: .5 !important;
+		}
 	}
 }
 
 .scroll-content {
+	top: 60px;
 	&.has-tabs-top {
-		top: 109px;
+		top: 128px;
 	}
+}
+
+.section-title {
+	background: $off-white;
+	padding: 10px 13px;
+	margin: 0 0 15px;
+	border-radius: $radius;
+	font-weight: 300;
+	line-height: 1;
 }

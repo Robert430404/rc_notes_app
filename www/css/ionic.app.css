@@ -9791,15 +9791,45 @@ a.button {
 
 .bar.bar-stable {
   background: #1dcab2;
-  height: 60px; }
+  height: 60px;
+  padding: 14px 15px; }
   .bar.bar-stable .title {
     color: #000;
     line-height: 60px;
     text-align: center;
     font-weight: 300; }
+  .bar.bar-stable .button {
+    color: #000; }
 
 .tabs-top > .tabs {
-  top: 60px; }
+  top: 60px;
+  height: 68px; }
 
-.scroll-content.has-tabs-top {
-  top: 109px; }
+.tabs {
+  height: 68px; }
+  .tabs .tab-item {
+    background: #ecedee !important;
+    opacity: .65 !important;
+    margin: 0 !important;
+    padding: 10px;
+    border-bottom: 2px solid #ecedee !important;
+    transition: border-color, color, opacity .5s; }
+    .tabs .tab-item.tab-item-active, .tabs .tab-item.activated {
+      color: #1dcab2 !important;
+      border-color: #1dcab2 !important;
+      opacity: 1 !important; }
+    .tabs .tab-item.activated {
+      opacity: .5 !important; }
+
+.scroll-content {
+  top: 60px; }
+  .scroll-content.has-tabs-top {
+    top: 128px; }
+
+.section-title {
+  background: #ecedee;
+  padding: 10px 13px;
+  margin: 0 0 15px;
+  border-radius: 4px;
+  font-weight: 300;
+  line-height: 1; }
