@@ -36,6 +36,56 @@ $overlay-black: rgba(00, 00, 00, .25);
 $radius: 4px;
 
 // Style Rules
+hr {
+	border-color: $light-grey;
+	background: $light-grey;
+	border: 0;
+	padding: 0;
+	border-top: 1px solid $light-grey;
+}
+
+.card {
+	box-shadow: none;
+	background: $off-white;
+	padding: 15px;
+	border-radius: $radius;
+	border: 1px solid $light-grey;
+	label {
+		text-transform: uppercase;
+		font-size: 18px;
+		font-weight: 300;
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.form-control {
+		border: 1px solid $light-grey;
+		background: $white;
+		border-radius: $radius;
+		display: block;
+		width: 100%;
+		margin-top: 5px;
+		padding: 5px 10px;
+	}
+	textarea {
+		padding: 10px;
+		height: 125px;
+	}
+	input[type=submit] {
+		background: $primary-color;
+		color: $black;
+		display: block;
+		border: none;
+		border-radius: $radius;
+		width: 100%;
+		padding: 10px;
+		text-transform: uppercase;
+	}
+	hr {
+		margin: 15px 0;
+	}
+}
+
 .bar {
 	&.bar-stable{
 		background: $primary-color;
@@ -50,13 +100,6 @@ $radius: 4px;
 		.button {
 			color: $black;
 		}
-	}
-}
-
-.tabs-top {
-	> .tabs {
-		top: 59px;
-		height: 68px;
 	}
 }
 
@@ -75,10 +118,22 @@ $radius: 4px;
 			border-color: $primary-color !important;
 			opacity: 1 !important;
 			padding: 10px 10px 6px 10px;
-			margin-top: 1px !important;
 		}
 		&.activated {
 			opacity: .5 !important;
+		}
+	}
+}
+
+.tabs-top {
+	> .tabs {
+		top: 59px;
+		height: 68px;
+		.tab-item {
+			&.tab-item-active,
+			&.activated {
+				margin-top: 1px !important;
+			}
 		}
 	}
 }
@@ -97,4 +152,5 @@ $radius: 4px;
 	border-radius: $radius;
 	font-weight: 300;
 	line-height: 1;
+	border: 1px solid $light-grey;
 }
