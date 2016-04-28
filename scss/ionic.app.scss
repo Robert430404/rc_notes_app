@@ -84,6 +84,18 @@ hr {
 	hr {
 		margin: 15px 0;
 	}
+	.note-title {
+		font-size: 20px;
+		text-transform: uppercase;
+		background: $light-grey;
+		border-radius: $radius;
+		padding: 10px;
+	}
+	.note-content {
+		font-size: 16px;
+		color: $black;
+		margin: 15px 0 0;
+	}
 }
 
 .settings-form {

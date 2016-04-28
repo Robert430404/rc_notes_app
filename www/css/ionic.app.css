@@ -9831,6 +9831,16 @@ hr {
     text-transform: uppercase; }
   .card hr {
     margin: 15px 0; }
+  .card .note-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #cbcbcb;
+    border-radius: 4px;
+    padding: 10px; }
+  .card .note-content {
+    font-size: 16px;
+    color: #000;
+    margin: 15px 0 0; }
 
 .settings-form .list {
   background: #fff; }
