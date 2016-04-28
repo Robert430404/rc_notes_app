@@ -1,9 +1,23 @@
 <ion-view view-title="Your Settings">
   <ion-content>
-    <ion-list>
-    <ion-toggle  ng-model="settings.enableFriends">
-        Enable Friends
-    </ion-toggle>
-    </ion-list>
+  	<form action="" method="post" id="settings-form" class="settings-form">
+  		<div class="list">
+		    <div class="item">
+					<label>
+						Set Your API Key
+						<input type="text" name="access-key" id="access-key" class="form-control" />
+					</label>
+		    </div>
+		    <div class="item">
+					<label>
+						Set Your Instalation URL
+						<input type="text" name="access-url" id="access-url" class="form-control" />
+					</label>
+		    </div>
+	    </div>
+	    <div class="button-wrapper">
+	    	<input type="submit" name="submit" value="Save Settings" />
+	    </div>
+  	</form>
   </ion-content>
 </ion-view>

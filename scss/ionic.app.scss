@@ -86,6 +86,42 @@ hr {
 	}
 }
 
+.settings-form {
+	.list {
+		background: $white;
+		.item {
+			background: $off-white;
+			label {
+				display: block;
+				width: 100%;
+				font-size: 16px;
+
+			}
+			.form-control {
+				border-radius: $radius;
+				border: 1px solid $light-grey;
+				width: 100%;
+				display: block;
+				padding: 5px;
+				margin-top: 10px;
+			}
+		}
+	}
+	.button-wrapper {
+		margin: 15px;
+		input[type=submit] {
+			background: $primary-color;
+			color: $black;
+			display: block;
+			border: none;
+			border-radius: $radius;
+			width: 100%;
+			padding: 10px;
+			text-transform: uppercase;
+		}
+	}
+}
+
 .bar {
 	&.bar-stable{
 		background: $primary-color;

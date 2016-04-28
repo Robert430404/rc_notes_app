@@ -9832,6 +9832,34 @@ hr {
   .card hr {
     margin: 15px 0; }
 
+.settings-form .list {
+  background: #fff; }
+  .settings-form .list .item {
+    background: #ecedee; }
+    .settings-form .list .item label {
+      display: block;
+      width: 100%;
+      font-size: 16px; }
+    .settings-form .list .item .form-control {
+      border-radius: 4px;
+      border: 1px solid #cbcbcb;
+      width: 100%;
+      display: block;
+      padding: 5px;
+      margin-top: 10px; }
+
+.settings-form .button-wrapper {
+  margin: 15px; }
+  .settings-form .button-wrapper input[type=submit] {
+    background: #1dcab2;
+    color: #000;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase; }
+
 .bar.bar-stable {
   background: #1dcab2;
   height: 60px;
