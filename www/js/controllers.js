@@ -1,6 +1,7 @@
 angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope, Notes) {
+  console.log(Notes.all());
   $scope.notes = Notes.all();
 })
 

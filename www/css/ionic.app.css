@@ -9833,6 +9833,7 @@ hr {
     margin: 15px 0; }
   .card .note-title {
     font-size: 20px;
+    font-weight: 300;
     text-transform: uppercase;
     background: #cbcbcb;
     border-radius: 4px;
@@ -9849,7 +9850,8 @@ hr {
     .settings-form .list .item label {
       display: block;
       width: 100%;
-      font-size: 16px; }
+      font-size: 16px;
+      text-transform: uppercase; }
     .settings-form .list .item .form-control {
       border-radius: 4px;
       border: 1px solid #cbcbcb;
@@ -9917,4 +9919,5 @@ hr {
   border-radius: 4px;
   font-weight: 300;
   line-height: 1;
-  border: 1px solid #cbcbcb; }
+  border: 1px solid #cbcbcb;
+  text-transform: uppercase; }

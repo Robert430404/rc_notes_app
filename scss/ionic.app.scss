@@ -86,6 +86,7 @@ hr {
 	}
 	.note-title {
 		font-size: 20px;
+		font-weight: 300;
 		text-transform: uppercase;
 		background: $light-grey;
 		border-radius: $radius;
@@ -107,7 +108,7 @@ hr {
 				display: block;
 				width: 100%;
 				font-size: 16px;
-
+				text-transform: uppercase;
 			}
 			.form-control {
 				border-radius: $radius;
@@ -201,4 +202,5 @@ hr {
 	font-weight: 300;
 	line-height: 1;
 	border: 1px solid $light-grey;
+	text-transform: uppercase;
 }
