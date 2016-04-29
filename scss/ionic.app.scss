@@ -50,6 +50,7 @@ hr {
 	padding: 15px;
 	border-radius: $radius;
 	border: 1px solid $light-grey;
+	margin: 10px;
 	label {
 		text-transform: uppercase;
 		font-size: 18px;
@@ -96,6 +97,22 @@ hr {
 		font-size: 16px;
 		color: $black;
 		margin: 15px 0 0;
+	}
+	.button-row {
+		.button {
+			width: 50%;
+			display: block;
+			padding: 10px;
+			line-height: 1;
+			float: left;
+			background: $primary-color;
+			border-radius: 0;
+			min-height: 0;
+			color: $black;
+			border: 1px solid $off-white;
+			text-transform: uppercase;
+			font-weight: 300;
+		}
 	}
 }
 
@@ -189,15 +206,19 @@ hr {
 
 .scroll-content {
 	top: 60px;
+	&.has-tabs {
+		bottom: 68px;
+	}
 	&.has-tabs-top {
 		top: 127px;
+		bottom: 0;
 	}
 }
 
 .section-title {
 	background: $off-white;
 	padding: 10px 13px;
-	margin: 0 0 15px;
+	margin: 0 0 10px;
 	border-radius: $radius;
 	font-weight: 300;
 	line-height: 1;
