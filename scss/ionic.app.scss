@@ -94,9 +94,21 @@ hr {
 		padding: 10px;
 	}
 	.note-content {
+		position: relative;
 		font-size: 16px;
 		color: $black;
 		margin: 15px 0 0;
+		max-height: 60px;
+		overflow: hidden;
+		text-align: justify;
+		&:after {
+			content: '...';
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			padding-left: 10px;
+			background: $off-white;
+		}
 	}
 	.button-row {
 		.button {
