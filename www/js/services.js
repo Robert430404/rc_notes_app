@@ -1,9 +1,7 @@
 angular.module('starter.services', [])
 
 .factory('Notes', function($q, $http) {
-  // Might use a resource here that returns a JSON array
-
-  // Some fake testing data
+  // Returns All Note Data When This Is Called
   return {
     all: function()
     {
@@ -16,4 +14,8 @@ angular.module('starter.services', [])
       return deferred.promise;
     }
   };
+})
+
+.factory('sendData', function($q, $http) {
+
 });
