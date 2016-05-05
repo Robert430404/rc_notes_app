@@ -1,22 +1,21 @@
 <ion-view view-title="Your Notes">
-  <ion-content class="padding">
-    <h2 class="section-title">Your Notes</h2>
-    <div class="note-wrapper">
-      <div class="card" ng-repeat="note in notes.$$state.value.data">
-      <h2 class="note-title">{{ note.title }}</h2>
-      <p class="note-content">
-        {{ note.text }}
-      </p>
-      <hr />
-      <div class="button-row">
-        <a class="button" href="#/notes/edit">
-        View Note
-        </a>
-        <a class="button" href="#/notes/edit">
-        Edit Note
-        </a>
+  <ion-content>
+    <div class="note-wrapper list">
+      <div class="item" ng-repeat="note in notes.$$state.value.data">
+        <h2 class="note-title">{{ note.title }}</h2>
+        <p class="note-content">
+          {{ note.text }}
+        </p>
+        <hr />
+        <div class="button-row">
+          <a class="button" href="#/notes/edit">
+          View Note
+          </a>
+          <a class="button" href="#/notes/edit">
+          Edit Note
+          </a>
+        </div>
       </div>
-    </div>
     </div>
   </ion-content>
 </ion-view>

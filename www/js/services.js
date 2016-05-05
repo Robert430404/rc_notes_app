@@ -16,6 +16,6 @@ angular.module('starter.services', [])
   };
 })
 
-.factory('sendData', function($q, $http) {
+SendData.service('sendData', function($q, $http) {
 
 });
