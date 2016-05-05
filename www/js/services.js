@@ -16,6 +16,6 @@ angular.module('starter.services', [])
   };
 })
 
-SendData.service('sendData', function($q, $http) {
+.service('sendData', function($q, $http) {
 
 });

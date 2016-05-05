@@ -9851,7 +9851,6 @@ hr {
       font-size: 16px;
       text-transform: uppercase; }
     .settings-form .list .item .form-control {
-      border-radius: 4px;
       border: 1px solid #cbcbcb;
       width: 100%;
       display: block;
