@@ -173,7 +173,9 @@ hr {
 			color: $black;
 			line-height: 60px;
 			text-align: center;
-			font-weight: 300;
+			text-transform: uppercase;
+			font-size: 22px;
+			font-weight: 400;
 		}
 		.button {
 			color: $black;
@@ -248,6 +250,16 @@ hr {
 		}
 		hr {
 			margin: 15px 0;
+		}
+		.note-title {
+			text-transform: uppercase;
+			font-weight: 300;
+			font-size: 22px;
+			color: $black;
+		}
+		.note-content {
+			font-size: 18px;
+			color: $black;
 		}
 		.button-row {
 			.button {
