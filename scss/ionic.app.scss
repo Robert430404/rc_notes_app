@@ -51,37 +51,6 @@ hr {
 	border-radius: $radius;
 	border: 1px solid $light-grey;
 	margin: 10px;
-	label {
-		text-transform: uppercase;
-		font-size: 18px;
-		font-weight: 300;
-		display: block;
-		width: 100%;
-		margin-bottom: 10px;
-	}
-	.form-control {
-		border: 1px solid $light-grey;
-		background: $white;
-		border-radius: $radius;
-		display: block;
-		width: 100%;
-		margin-top: 5px;
-		padding: 5px 10px;
-	}
-	textarea {
-		padding: 10px;
-		height: 125px;
-	}
-	input[type=submit] {
-		background: $primary-color;
-		color: $black;
-		display: block;
-		border: none;
-		border-radius: $radius;
-		width: 100%;
-		padding: 10px;
-		text-transform: uppercase;
-	}
 	hr {
 		margin: 15px 0;
 	}
@@ -243,6 +212,35 @@ hr {
 .list {
 	.item {
 		background: $off-white;
+		label {
+			text-transform: uppercase;
+			font-size: 18px;
+			font-weight: 300;
+			display: block;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		.form-control {
+			border: 1px solid $light-grey;
+			background: $white;
+			display: block;
+			width: 100%;
+			margin-top: 5px;
+			padding: 5px 10px;
+		}
+		textarea {
+			padding: 10px;
+			height: 125px;
+		}
+		input[type=submit] {
+			background: $primary-color;
+			color: $black;
+			display: block;
+			border: none;
+			width: 100%;
+			padding: 10px;
+			text-transform: uppercase;
+		}
 		&.divider {
 			text-transform: uppercase;
 			font-size: 18px;

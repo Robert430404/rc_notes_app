@@ -9803,33 +9803,6 @@ hr {
   border-radius: 4px;
   border: 1px solid #cbcbcb;
   margin: 10px; }
-  .card label {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 300;
-    display: block;
-    width: 100%;
-    margin-bottom: 10px; }
-  .card .form-control {
-    border: 1px solid #cbcbcb;
-    background: #fff;
-    border-radius: 4px;
-    display: block;
-    width: 100%;
-    margin-top: 5px;
-    padding: 5px 10px; }
-  .card textarea {
-    padding: 10px;
-    height: 125px; }
-  .card input[type=submit] {
-    background: #1dcab2;
-    color: #000;
-    display: block;
-    border: none;
-    border-radius: 4px;
-    width: 100%;
-    padding: 10px;
-    text-transform: uppercase; }
   .card hr {
     margin: 15px 0; }
   .card .note-title {
@@ -9954,6 +9927,31 @@ hr {
 
 .list .item {
   background: #ecedee; }
+  .list .item label {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; }
+  .list .item .form-control {
+    border: 1px solid #cbcbcb;
+    background: #fff;
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px 10px; }
+  .list .item textarea {
+    padding: 10px;
+    height: 125px; }
+  .list .item input[type=submit] {
+    background: #1dcab2;
+    color: #000;
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase; }
   .list .item.divider {
     text-transform: uppercase;
     font-size: 18px;
