@@ -26,6 +26,7 @@ $black: #000;
 $white: #fff;
 $off-white: #ecedee;
 $light-grey: #cbcbcb;
+$dark-grey: #3b3b3b;
 
 $primary-color: #1dcab2;
 $primary-red: #ca1d1d;
@@ -252,11 +253,11 @@ hr {
 			text-transform: uppercase;
 			font-weight: 300;
 			font-size: 22px;
-			color: $black;
+			color: $dark-grey;
 		}
 		.note-content {
 			font-size: 18px;
-			color: $black;
+			color: $dark-grey;
 		}
 		.button-row {
 			.button {
